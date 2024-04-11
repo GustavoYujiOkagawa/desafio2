@@ -1,0 +1,31 @@
+.Card{
+    width: 320px;
+    height: 490px;
+    background-color: #1F1F1F;
+    border-radius: 12px;
+    padding-top: 32px;
+}
+
+.ButtonsContainer{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+img{
+    border-radius: 100px;
+}
+
+.button{
+    width: 260px;
+    height: 40px;
+    border-radius: 9px;
+    text-decoration: none;
+    color: white;
+    background-color: #333333;
+    font-weight:700;
+    font-size: 0.8rem;
+    line-height: 40px;
+}
